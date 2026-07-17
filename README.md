@@ -4,6 +4,18 @@ A clean full-stack starter running on
 [vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and
 Drizzle support.
 
+## GitHub Pages
+
+The playable game is a static site in `public/game`. The included GitHub Actions
+workflow publishes that folder to GitHub Pages whenever changes are pushed to
+`main`.
+
+Before the first deployment, open **Settings → Pages** in the GitHub repository
+and select **GitHub Actions** as the publishing source. Once the workflow
+finishes, the game is available at:
+
+`https://future-designer-2026.github.io/team-01-game/`
+
 ## Prerequisites
 
 - Node.js `>=22.13.0`
